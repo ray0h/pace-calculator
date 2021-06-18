@@ -7,7 +7,7 @@ const App = () => {
       <h1>This is the start of the homemade app.</h1>
       <p>testing webpack dev server</p>
     </div>
-
+  
   )
 }
 
