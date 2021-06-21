@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Basic from './components/Basic';
 
 const App = () => {
   return (
     <div>
-      <h1>This is the start of the homemade app.</h1>
-      <p>testing webpack dev server</p>
+      <h1>Running Pace Calculator</h1>
+      <Basic/>
     </div>
-  
   )
 }
 
