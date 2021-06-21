@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Basic from './components/Basic';
+import BasicPace from './components/BasicPace';
 
 const App = () => {
   return (
     <div>
       <h1>Running Pace Calculator</h1>
-      <Basic/>
+      <BasicPace/>
     </div>
   )
 }
