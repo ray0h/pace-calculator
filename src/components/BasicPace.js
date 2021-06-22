@@ -9,6 +9,7 @@ const BasicPace = () => {
 
   const parseSec = (time) => {
     let digits = time.split(":").map(d => parseInt(d));
+    while (digits.length < 3) { digits.unshift(0) } 
     return 3600*digits[0] + 60*digits[1] + digits[2];
   };
 
@@ -39,7 +40,6 @@ const BasicPace = () => {
     setPaceKmMin(kmMin);
     setPaceMPH(calcPHPace(miMin));
     setPaceKPH(calcPHPace(kmMin));
-    console.log(values)
   };
 
   return (
